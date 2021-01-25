@@ -1,0 +1,90 @@
+body{
+    height: 100vh;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 239)); */
+    background-image: url('https://www.smartcitiesworld.net/AcuCustom/Sitename/DAM/005/news-connectivity-nov16-Sigfoxfunding.jpg');
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: hsl(170, 100%, 50%);
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(211, 204, 204);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+    font: outline;
+    font-size: medium;
+    color:  rgb(205, 50, 50);
+    flood-color: blue;
+    font-weight:bold;
+    font: outline;
+}
+
+.right{
+    float: right;
+    clear:both;
+    font: outline;
+    font-size: medium;
+    color: black;
+    flood-color: #81ce1d;
+    font-weight: bolder;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: outline;
+    font-size: medium;
+    font-weight: bolder;
+    flood-color: blue;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    
+}
+
+.btn{
+    margin: 0 5px;
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
